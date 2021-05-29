@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyDZCGFv-o_6hUW5ZFjkLprVYxjfHF10mjM",
+    authDomain: "tic-tac-toe-montechelo.firebaseapp.com",
+    databaseURL: "https://tic-tac-toe-montechelo-default-rtdb.firebaseio.com",
+    projectId: "tic-tac-toe-montechelo",
+    storageBucket: "tic-tac-toe-montechelo.appspot.com",
+    messagingSenderId: "803714692895",
+    appId: "1:803714692895:web:52e164edbeb4d08476a22a"
+
+  }
 };
 
 /*
